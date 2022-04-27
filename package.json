@@ -10,12 +10,19 @@
   "dependencies": {
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
+    "react-router-dom": "^6.3.0",
     "sass": "^1.50.1"
   },
   "devDependencies": {
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
     "@vitejs/plugin-react": "^1.3.0",
+    "eslint": "^8.14.0",
+    "eslint-plugin-unicorn": "^42.0.0",
     "vite": "^2.9.5"
-  }
+  },
+  "eslintConfig": {
+    "jsx": true,
+		"extends": "plugin:unicorn/all"
+	}
 }
